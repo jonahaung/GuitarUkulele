@@ -119,12 +119,10 @@
 		477DA6EF27E0CEAA00C143C4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				477DA6F027E0CEAA00C143C4 /* GuitarUkuleleApp.swift */,
-				477DA6F127E0CEAA00C143C4 /* ContentView.swift */,
+				477DA75727E0E36D00C143C4 /* Main */,
 				477DA72227E0D81700C143C4 /* Tuner */,
 				477DA71E27E0D6D800C143C4 /* Chords */,
-				477DA71727E0CF8D00C143C4 /* Resources */,
-				477DA6F227E0CEAC00C143C4 /* Assets.xcassets */,
+				477DA75627E0E35F00C143C4 /* Resources */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -158,6 +156,7 @@
 		477DA71E27E0D6D800C143C4 /* Chords */ = {
 			isa = PBXGroup;
 			children = (
+				477DA71727E0CF8D00C143C4 /* Resources */,
 				477DA75027E0D8B300C143C4 /* CordsLibraryView.swift */,
 				477DA70F27E0CECD00C143C4 /* Chord.swift */,
 				477DA71027E0CECE00C143C4 /* FretboardView.swift */,
@@ -216,6 +215,23 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		477DA75627E0E35F00C143C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				477DA6F227E0CEAC00C143C4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		477DA75727E0E36D00C143C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				477DA6F027E0CEAA00C143C4 /* GuitarUkuleleApp.swift */,
+				477DA6F127E0CEAA00C143C4 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
