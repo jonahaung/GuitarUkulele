@@ -13,6 +13,48 @@
 		477DA70327E0CEAC00C143C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6F127E0CEAA00C143C4 /* ContentView.swift */; };
 		477DA70427E0CEAC00C143C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477DA6F227E0CEAC00C143C4 /* Assets.xcassets */; };
 		477DA70527E0CEAC00C143C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477DA6F227E0CEAC00C143C4 /* Assets.xcassets */; };
+		477DA71127E0CECE00C143C4 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA70E27E0CECD00C143C4 /* Instrument.swift */; };
+		477DA71227E0CECE00C143C4 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA70E27E0CECD00C143C4 /* Instrument.swift */; };
+		477DA71327E0CECE00C143C4 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA70F27E0CECD00C143C4 /* Chord.swift */; };
+		477DA71427E0CECE00C143C4 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA70F27E0CECD00C143C4 /* Chord.swift */; };
+		477DA71527E0CECE00C143C4 /* FretboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA71027E0CECE00C143C4 /* FretboardView.swift */; };
+		477DA71627E0CECE00C143C4 /* FretboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA71027E0CECE00C143C4 /* FretboardView.swift */; };
+		477DA71A27E0CF9C00C143C4 /* ukulele.json in Resources */ = {isa = PBXBuildFile; fileRef = 477DA71827E0CF9C00C143C4 /* ukulele.json */; };
+		477DA71B27E0CF9C00C143C4 /* ukulele.json in Resources */ = {isa = PBXBuildFile; fileRef = 477DA71827E0CF9C00C143C4 /* ukulele.json */; };
+		477DA71C27E0CF9C00C143C4 /* guitar.json in Resources */ = {isa = PBXBuildFile; fileRef = 477DA71927E0CF9C00C143C4 /* guitar.json */; };
+		477DA71D27E0CF9C00C143C4 /* guitar.json in Resources */ = {isa = PBXBuildFile; fileRef = 477DA71927E0CF9C00C143C4 /* guitar.json */; };
+		477DA72127E0D7B000C143C4 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 477DA72027E0D7B000C143C4 /* AudioKit */; };
+		477DA73427E0D83300C143C4 /* ModifierPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72427E0D83200C143C4 /* ModifierPreference.swift */; };
+		477DA73527E0D83300C143C4 /* ModifierPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72427E0D83200C143C4 /* ModifierPreference.swift */; };
+		477DA73627E0D83300C143C4 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72527E0D83200C143C4 /* Frequency.swift */; };
+		477DA73727E0D83300C143C4 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72527E0D83200C143C4 /* Frequency.swift */; };
+		477DA73827E0D83300C143C4 /* ScaleNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72627E0D83200C143C4 /* ScaleNote.swift */; };
+		477DA73927E0D83300C143C4 /* ScaleNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72627E0D83200C143C4 /* ScaleNote.swift */; };
+		477DA73A27E0D83300C143C4 /* TunerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72727E0D83200C143C4 /* TunerData.swift */; };
+		477DA73B27E0D83300C143C4 /* TunerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72727E0D83200C143C4 /* TunerData.swift */; };
+		477DA73C27E0D83300C143C4 /* ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72927E0D83200C143C4 /* ColorAnimation.swift */; };
+		477DA73D27E0D83300C143C4 /* ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72927E0D83200C143C4 /* ColorAnimation.swift */; };
+		477DA73E27E0D83300C143C4 /* TunerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72A27E0D83200C143C4 /* TunerController.swift */; };
+		477DA73F27E0D83300C143C4 /* TunerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72A27E0D83200C143C4 /* TunerController.swift */; };
+		477DA74027E0D83300C143C4 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72B27E0D83200C143C4 /* Alignment.swift */; };
+		477DA74127E0D83300C143C4 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72B27E0D83200C143C4 /* Alignment.swift */; };
+		477DA74227E0D83300C143C4 /* CurrentNoteMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72D27E0D83300C143C4 /* CurrentNoteMarker.swift */; };
+		477DA74327E0D83300C143C4 /* CurrentNoteMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72D27E0D83300C143C4 /* CurrentNoteMarker.swift */; };
+		477DA74427E0D83300C143C4 /* MatchedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72E27E0D83300C143C4 /* MatchedNoteView.swift */; };
+		477DA74527E0D83300C143C4 /* MatchedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72E27E0D83300C143C4 /* MatchedNoteView.swift */; };
+		477DA74627E0D83300C143C4 /* NoteDistanceMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72F27E0D83300C143C4 /* NoteDistanceMarkers.swift */; };
+		477DA74727E0D83300C143C4 /* NoteDistanceMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA72F27E0D83300C143C4 /* NoteDistanceMarkers.swift */; };
+		477DA74827E0D83300C143C4 /* TranspositionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73027E0D83300C143C4 /* TranspositionMenu.swift */; };
+		477DA74927E0D83300C143C4 /* TranspositionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73027E0D83300C143C4 /* TranspositionMenu.swift */; };
+		477DA74A27E0D83300C143C4 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73127E0D83300C143C4 /* TunerView.swift */; };
+		477DA74B27E0D83300C143C4 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73127E0D83300C143C4 /* TunerView.swift */; };
+		477DA74C27E0D83300C143C4 /* MainNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73227E0D83300C143C4 /* MainNoteView.swift */; };
+		477DA74D27E0D83300C143C4 /* MainNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73227E0D83300C143C4 /* MainNoteView.swift */; };
+		477DA74E27E0D83300C143C4 /* MatchedNoteFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73327E0D83300C143C4 /* MatchedNoteFrequency.swift */; };
+		477DA74F27E0D83300C143C4 /* MatchedNoteFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA73327E0D83300C143C4 /* MatchedNoteFrequency.swift */; };
+		477DA75127E0D8B300C143C4 /* CordsLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA75027E0D8B300C143C4 /* CordsLibraryView.swift */; };
+		477DA75227E0D8B300C143C4 /* CordsLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA75027E0D8B300C143C4 /* CordsLibraryView.swift */; };
+		477DA75527E0DA9F00C143C4 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 477DA75427E0DA9F00C143C4 /* AudioKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +64,26 @@
 		477DA6F727E0CEAC00C143C4 /* GuitarUkulele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarUkulele.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477DA6FD27E0CEAC00C143C4 /* GuitarUkulele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarUkulele.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477DA6FF27E0CEAC00C143C4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		477DA70E27E0CECD00C143C4 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		477DA70F27E0CECD00C143C4 /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		477DA71027E0CECE00C143C4 /* FretboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FretboardView.swift; sourceTree = "<group>"; };
+		477DA71827E0CF9C00C143C4 /* ukulele.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ukulele.json; sourceTree = "<group>"; };
+		477DA71927E0CF9C00C143C4 /* guitar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guitar.json; sourceTree = "<group>"; };
+		477DA72427E0D83200C143C4 /* ModifierPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierPreference.swift; sourceTree = "<group>"; };
+		477DA72527E0D83200C143C4 /* Frequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		477DA72627E0D83200C143C4 /* ScaleNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleNote.swift; sourceTree = "<group>"; };
+		477DA72727E0D83200C143C4 /* TunerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerData.swift; sourceTree = "<group>"; };
+		477DA72927E0D83200C143C4 /* ColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAnimation.swift; sourceTree = "<group>"; };
+		477DA72A27E0D83200C143C4 /* TunerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerController.swift; sourceTree = "<group>"; };
+		477DA72B27E0D83200C143C4 /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		477DA72D27E0D83300C143C4 /* CurrentNoteMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentNoteMarker.swift; sourceTree = "<group>"; };
+		477DA72E27E0D83300C143C4 /* MatchedNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedNoteView.swift; sourceTree = "<group>"; };
+		477DA72F27E0D83300C143C4 /* NoteDistanceMarkers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDistanceMarkers.swift; sourceTree = "<group>"; };
+		477DA73027E0D83300C143C4 /* TranspositionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranspositionMenu.swift; sourceTree = "<group>"; };
+		477DA73127E0D83300C143C4 /* TunerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+		477DA73227E0D83300C143C4 /* MainNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNoteView.swift; sourceTree = "<group>"; };
+		477DA73327E0D83300C143C4 /* MatchedNoteFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedNoteFrequency.swift; sourceTree = "<group>"; };
+		477DA75027E0D8B300C143C4 /* CordsLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordsLibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA72127E0D7B000C143C4 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA75527E0DA9F00C143C4 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +112,7 @@
 				477DA6EF27E0CEAA00C143C4 /* Shared */,
 				477DA6FE27E0CEAC00C143C4 /* macOS */,
 				477DA6F827E0CEAC00C143C4 /* Products */,
+				477DA75327E0DA9600C143C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +121,9 @@
 			children = (
 				477DA6F027E0CEAA00C143C4 /* GuitarUkuleleApp.swift */,
 				477DA6F127E0CEAA00C143C4 /* ContentView.swift */,
+				477DA72227E0D81700C143C4 /* Tuner */,
+				477DA71E27E0D6D800C143C4 /* Chords */,
+				477DA71727E0CF8D00C143C4 /* Resources */,
 				477DA6F227E0CEAC00C143C4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +146,78 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		477DA71727E0CF8D00C143C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				477DA71927E0CF9C00C143C4 /* guitar.json */,
+				477DA71827E0CF9C00C143C4 /* ukulele.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		477DA71E27E0D6D800C143C4 /* Chords */ = {
+			isa = PBXGroup;
+			children = (
+				477DA75027E0D8B300C143C4 /* CordsLibraryView.swift */,
+				477DA70F27E0CECD00C143C4 /* Chord.swift */,
+				477DA71027E0CECE00C143C4 /* FretboardView.swift */,
+				477DA70E27E0CECD00C143C4 /* Instrument.swift */,
+			);
+			path = Chords;
+			sourceTree = "<group>";
+		};
+		477DA72227E0D81700C143C4 /* Tuner */ = {
+			isa = PBXGroup;
+			children = (
+				477DA72827E0D83200C143C4 /* Helpers */,
+				477DA72327E0D83200C143C4 /* Models */,
+				477DA72C27E0D83300C143C4 /* Views */,
+			);
+			path = Tuner;
+			sourceTree = "<group>";
+		};
+		477DA72327E0D83200C143C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				477DA72427E0D83200C143C4 /* ModifierPreference.swift */,
+				477DA72527E0D83200C143C4 /* Frequency.swift */,
+				477DA72627E0D83200C143C4 /* ScaleNote.swift */,
+				477DA72727E0D83200C143C4 /* TunerData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		477DA72827E0D83200C143C4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				477DA72927E0D83200C143C4 /* ColorAnimation.swift */,
+				477DA72A27E0D83200C143C4 /* TunerController.swift */,
+				477DA72B27E0D83200C143C4 /* Alignment.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		477DA72C27E0D83300C143C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				477DA72D27E0D83300C143C4 /* CurrentNoteMarker.swift */,
+				477DA72E27E0D83300C143C4 /* MatchedNoteView.swift */,
+				477DA72F27E0D83300C143C4 /* NoteDistanceMarkers.swift */,
+				477DA73027E0D83300C143C4 /* TranspositionMenu.swift */,
+				477DA73127E0D83300C143C4 /* TunerView.swift */,
+				477DA73227E0D83300C143C4 /* MainNoteView.swift */,
+				477DA73327E0D83300C143C4 /* MatchedNoteFrequency.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		477DA75327E0DA9600C143C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +234,9 @@
 			dependencies = (
 			);
 			name = "GuitarUkulele (iOS)";
+			packageProductDependencies = (
+				477DA72027E0D7B000C143C4 /* AudioKit */,
+			);
 			productName = "GuitarUkulele (iOS)";
 			productReference = 477DA6F727E0CEAC00C143C4 /* GuitarUkulele.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +254,9 @@
 			dependencies = (
 			);
 			name = "GuitarUkulele (macOS)";
+			packageProductDependencies = (
+				477DA75427E0DA9F00C143C4 /* AudioKit */,
+			);
 			productName = "GuitarUkulele (macOS)";
 			productReference = 477DA6FD27E0CEAC00C143C4 /* GuitarUkulele.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 477DA6EA27E0CEAA00C143C4;
+			packageReferences = (
+				477DA71F27E0D7B000C143C4 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 477DA6F827E0CEAC00C143C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				477DA70427E0CEAC00C143C4 /* Assets.xcassets in Resources */,
+				477DA71C27E0CF9C00C143C4 /* guitar.json in Resources */,
+				477DA71A27E0CF9C00C143C4 /* ukulele.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				477DA70527E0CEAC00C143C4 /* Assets.xcassets in Resources */,
+				477DA71D27E0CF9C00C143C4 /* guitar.json in Resources */,
+				477DA71B27E0CF9C00C143C4 /* ukulele.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +329,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA74E27E0D83300C143C4 /* MatchedNoteFrequency.swift in Sources */,
+				477DA73827E0D83300C143C4 /* ScaleNote.swift in Sources */,
+				477DA74027E0D83300C143C4 /* Alignment.swift in Sources */,
+				477DA73E27E0D83300C143C4 /* TunerController.swift in Sources */,
 				477DA70227E0CEAC00C143C4 /* ContentView.swift in Sources */,
+				477DA74827E0D83300C143C4 /* TranspositionMenu.swift in Sources */,
+				477DA71127E0CECE00C143C4 /* Instrument.swift in Sources */,
+				477DA73A27E0D83300C143C4 /* TunerData.swift in Sources */,
+				477DA71327E0CECE00C143C4 /* Chord.swift in Sources */,
 				477DA70027E0CEAC00C143C4 /* GuitarUkuleleApp.swift in Sources */,
+				477DA73C27E0D83300C143C4 /* ColorAnimation.swift in Sources */,
+				477DA74A27E0D83300C143C4 /* TunerView.swift in Sources */,
+				477DA75127E0D8B300C143C4 /* CordsLibraryView.swift in Sources */,
+				477DA71527E0CECE00C143C4 /* FretboardView.swift in Sources */,
+				477DA74627E0D83300C143C4 /* NoteDistanceMarkers.swift in Sources */,
+				477DA74C27E0D83300C143C4 /* MainNoteView.swift in Sources */,
+				477DA73427E0D83300C143C4 /* ModifierPreference.swift in Sources */,
+				477DA73627E0D83300C143C4 /* Frequency.swift in Sources */,
+				477DA74227E0D83300C143C4 /* CurrentNoteMarker.swift in Sources */,
+				477DA74427E0D83300C143C4 /* MatchedNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +356,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA74F27E0D83300C143C4 /* MatchedNoteFrequency.swift in Sources */,
+				477DA73927E0D83300C143C4 /* ScaleNote.swift in Sources */,
+				477DA74127E0D83300C143C4 /* Alignment.swift in Sources */,
+				477DA73F27E0D83300C143C4 /* TunerController.swift in Sources */,
 				477DA70327E0CEAC00C143C4 /* ContentView.swift in Sources */,
+				477DA74927E0D83300C143C4 /* TranspositionMenu.swift in Sources */,
+				477DA71227E0CECE00C143C4 /* Instrument.swift in Sources */,
+				477DA73B27E0D83300C143C4 /* TunerData.swift in Sources */,
+				477DA71427E0CECE00C143C4 /* Chord.swift in Sources */,
 				477DA70127E0CEAC00C143C4 /* GuitarUkuleleApp.swift in Sources */,
+				477DA73D27E0D83300C143C4 /* ColorAnimation.swift in Sources */,
+				477DA74B27E0D83300C143C4 /* TunerView.swift in Sources */,
+				477DA75227E0D8B300C143C4 /* CordsLibraryView.swift in Sources */,
+				477DA71627E0CECE00C143C4 /* FretboardView.swift in Sources */,
+				477DA74727E0D83300C143C4 /* NoteDistanceMarkers.swift in Sources */,
+				477DA74D27E0D83300C143C4 /* MainNoteView.swift in Sources */,
+				477DA73527E0D83300C143C4 /* ModifierPreference.swift in Sources */,
+				477DA73727E0D83300C143C4 /* Frequency.swift in Sources */,
+				477DA74327E0D83300C143C4 /* CurrentNoteMarker.swift in Sources */,
+				477DA74527E0D83300C143C4 /* MatchedNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +503,11 @@
 				DEVELOPMENT_TEAM = YYK4329T78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone as an input device to the tuner.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -344,9 +535,11 @@
 				DEVELOPMENT_TEAM = YYK4329T78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone as an input device to the tuner.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -379,6 +572,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone as an input device to the tuner.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -407,6 +601,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone as an input device to the tuner.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -452,6 +647,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		477DA71F27E0D7B000C143C4 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		477DA72027E0D7B000C143C4 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 477DA71F27E0D7B000C143C4 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		477DA75427E0DA9F00C143C4 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 477DA71F27E0D7B000C143C4 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 477DA6EB27E0CEAA00C143C4 /* Project object */;
 }
